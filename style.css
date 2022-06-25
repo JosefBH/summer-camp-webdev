@@ -1,0 +1,132 @@
+:root {
+  --darkest: #06283d;
+  --middle: #1363df;
+  --light: #47b5ff;
+  --lightest: #dff6ff;
+  --black: #000000;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+  background-color: red;
+  border-color: black;
+}
+
+.two {
+  background-color: green;
+  border-color: black;
+}
+
+.three {
+  background-color: blue;
+  border-color: black;
+}
+
+div {
+  color: white;
+  display: inline-flex;
+}
+
+.title {
+  /*margin-top: 0.3rem;*/
+  /*margin-left: 0.1rem;*/
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--black);
+  order: 2;
+  bold
+  padding: 1.5rem;
+  margin: 0.3rem;
+  margin: 0 auto;
+  align-self: center;
+  padding: 0.5rem;
+  /*position: relative;*/
+  /*right: 40%;*/
+}
+
+/*@media screen and (max-width: 823.2px) {*/
+/*.link {*/
+/*display: none;*/
+/*}*/
+/*.title {*/
+/*margin-left: auto;*/
+/*justify-self: flex-start; */
+/*}*/
+/*}*/
+.link {
+  padding: 1.5rem;
+  margin: 0.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: italic;
+  color: var(--lightest);
+  order: 5;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+#gitlink {
+  text-decoration: none;
+  color: var(--middle);
+  padding: 0.1rem; 
+  color: var(--lightest)
+
+}
+.link:hover, #gitlink:hover{
+  color: var(--middle);
+  background-color: var(--lightest);
+}
+.link:visited, #gitlink:visited {
+  text-decoration: none;
+}
+.navbar {
+  background-color: var(--middle);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  overflow: hidden;
+
+
+}
+#home{ 
+  display: flex;
+  justify-content: center;
+
+}
+
+#logo {
+  position: absolute; 
+  top: 0px;
+  left: 0px;
+  max-width: 12%;
+  max-height: 12%;
+  align-self: center; 
+  margin-left: .3rem;
+  margin-top: .18rem; 
+
+}
+#wlc {
+  font-size: 1.5rem;
+  color: var(--light); 
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold; 
+
+}
+#footerp {
+	color: var(--light);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--middle);
+  color: white;
+  text-align: center; 
+}
